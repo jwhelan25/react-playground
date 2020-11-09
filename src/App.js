@@ -2,6 +2,8 @@ import React from 'react';
 import Split from './composition/Split'
 import './App.css'
 import Tooltip from './composition/Tooltip'
+import Messages from './Messages'
+import Date from './state/TheDate'
 
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
@@ -16,7 +18,7 @@ const secondTooltip = (
 )
 
 
-function App() {
+/* function App() {
   return (
     <main className='App'>
      <Split className='left' flexBasis={2}>
@@ -37,6 +39,12 @@ function App() {
       </Split>
     </main>
   );
-}
+} */
+
+function App (){
+    return (
+      <Date />
+    );
+  }
 
 export default App;
