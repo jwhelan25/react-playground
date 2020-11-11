@@ -1,11 +1,15 @@
 import React from 'react';
-import Split from './composition/Split'
+//import Split from './composition/Split'
 import './App.css'
-import Tooltip from './composition/Tooltip'
-import Messages from './Messages'
-import Date from './state/TheDate'
+//import Tooltip from './composition/Tooltip'
+//import Messages from './Messages'
+//import Date from './state/TheDate'
+//import Counter from './state/Counter'
+//import HelloWorld from './state-drills/Hello-World'
+//import Bomb from './state-drills/Bomb'
+import RouletteGun from './state-drills/RouletteGun'
 
-const firstTooltip = (
+/* const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
     ipsum
   </Tooltip>
@@ -18,7 +22,7 @@ const secondTooltip = (
 )
 
 
-/* function App() {
+ function App() {
   return (
     <main className='App'>
      <Split className='left' flexBasis={2}>
@@ -43,7 +47,7 @@ const secondTooltip = (
 
 function App (){
     return (
-      <Date />
+      <RouletteGun />
     );
   }
 
